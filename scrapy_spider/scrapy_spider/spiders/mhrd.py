@@ -6,18 +6,16 @@ new_links = [];
 visited_links = [];
 pdf_links = []
 
-domain = urlparse('http://mhrd.gov.in/').netloc
+domain = urlparse('http://www.paavam.com').netloc
 
 
 class MhrdSpider(scrapy.Spider):
     name = 'mhrd'
-    allowed_domains = ['mhrd.gov.in']
-    start_urls = ['http://mhrd.gov.in/']
+    allowed_domains = ['www.paavam.com']
+    start_urls = ['https://www.paavam.com/']
 
     def parse(self, response):
-
         item_links = response.css('a::attr(href)').extract()
-        print(response.url + " : " + str(len(item_links)))
 
         not_url = ['/', '#', 'javascript:void(0)']
         file_types = ['pdf', 'docx', 'docx']
@@ -51,6 +49,7 @@ class MhrdSpider(scrapy.Spider):
         for link in item_links:
             convertURL(link)
 
+        # print(response.url + " : " + str(len(new_links)))
         # print(new_links)
 
         if (response.url in new_links):
@@ -64,7 +63,6 @@ class MhrdSpider(scrapy.Spider):
 
     def parse_item(self, response):
         item_links = response.css('a::attr(href)').extract()
-        print(response.url + " : " + str(len(item_links)))
 
         not_url = ['/', '#', 'javascript:void(0)']
         file_types = ['pdf', 'docx', 'docx']
@@ -94,15 +92,15 @@ class MhrdSpider(scrapy.Spider):
 
                         # print(my_url)
 
-        if (response.url in new_links):
-            new_links.remove()
-        visited_links.append(response.url)
+        if(response.url not in visited_links):
+            visited_links.append(response.url)
 
         # Loop through the entire links
         for link in item_links:
             convertURL(link)
 
-        # print(new_links)
-
+        # print(response.url + " : " + str(len(new_links)))
+        print(pdf_links)
 
 print("Hello!!")
+
