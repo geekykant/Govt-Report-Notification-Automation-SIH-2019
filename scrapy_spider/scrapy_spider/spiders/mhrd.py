@@ -6,7 +6,8 @@ new_links = [];
 visited_links = [];
 pdf_links = []
 
-domain = urlparse('http://www.paavam.com').netloc
+main_url = 'http://www.paavam.com'
+domain = urlparse(main_url).netloc
 
 
 class MhrdSpider(scrapy.Spider):
@@ -14,6 +15,25 @@ class MhrdSpider(scrapy.Spider):
     allowed_domains = ['www.paavam.com']
     start_urls = ['https://www.paavam.com/']
 
+    def __init__(self):
+        print('Scraping spider sent!')
+
+    def __del__(self):
+        cleaned_arr = []
+
+        for j in new_links:
+            k = urlparse(j)
+            new_links.remove(j)
+            cln_str = "" + k.scheme + "://" + k.netloc + k.path
+
+            if (cln_str not in cleaned_arr):
+                cleaned_arr.append(cln_str)
+
+        print(main_url)
+        for i in cleaned_arr:
+            print(i)
+
+    #first parsed homepage only
     def parse(self, response):
         item_links = response.css('a::attr(href)').extract()
 
@@ -61,6 +81,8 @@ class MhrdSpider(scrapy.Spider):
                 # We make a request to each url and call the parse function on the http response.
                 yield scrapy.Request(url=url, callback=self.parse_item)
 
+
+    # For future visiting links
     def parse_item(self, response):
         item_links = response.css('a::attr(href)').extract()
 
@@ -92,7 +114,7 @@ class MhrdSpider(scrapy.Spider):
 
                         # print(my_url)
 
-        if(response.url not in visited_links):
+        if (response.url not in visited_links):
             visited_links.append(response.url)
 
         # Loop through the entire links
@@ -100,7 +122,4 @@ class MhrdSpider(scrapy.Spider):
             convertURL(link)
 
         # print(response.url + " : " + str(len(new_links)))
-        print(pdf_links)
-
-print("Hello!!")
-
+        # print(new_links)
