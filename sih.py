@@ -26,11 +26,12 @@ def scrapeIt(new_url):
 
             # check for same domain links
             if(link not in not_url and urlparse(link).netloc == domain):
+                visited_links.append(link)
                 for file_type in file_types:
-                        if(file_type in link):
+                        if(file_type in link and link not in pdf_links):
                             pdf_links.append(link)
 
-                if(link not in new_links and link not in pdf_links):
+                if(link not in new_links and link not in pdf_links and link not in visited_links):
                     new_links.append(link)
                     
 
@@ -39,5 +40,9 @@ def scrapeIt(new_url):
 # First scrape
 scrapeIt(url)
 
-for i in pdf_links:
+# Second time scrape
+for i in new_links:
     print(i)
+    scrapeIt(i)
+
+print("completed!")    
