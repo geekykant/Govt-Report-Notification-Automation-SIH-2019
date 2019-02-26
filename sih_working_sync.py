@@ -21,7 +21,7 @@ domain = urlparse(url).netloc
 here = pathlib.Path(__file__).parent
 outpath = here.joinpath("govt_db.db")
 
-conn = sqlite3.connect(outpath)
+conn = sqlite3.connect(str(outpath))
 c = conn.cursor()
 
 # Create table
