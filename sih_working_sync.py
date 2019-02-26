@@ -1,4 +1,4 @@
-from urllib.parse import urlparse, urljoin
+from urllib.parse import urlparse, urljoin, unquote
 import requests
 
 import lxml.html
@@ -25,9 +25,14 @@ conn = sqlite3.connect(outpath)
 c = conn.cursor()
 
 # Create table
-# c.execute("CREATE TABLE {url} (id INTEGER PRIMARY KEY AUTO_INCREMENT, sub_url TEXT, file_name TEXT);".format(url=domain.replace('.','_')))
-c.execute("CREATE TABLE {url} (sub_url TEXT, file_name TEXT);".format(url=domain.replace('.', '_')))
-
+try:
+    c.execute("CREATE TABLE {url} (urls TEXT PRIMARY KEY, file_name TEXT);".format(
+        url=domain.replace('.', '_')))
+except sqlite3.OperationalError as e:
+    c.execute("DROP TABLE {url};".format(url=domain.replace('.', '_')))
+    c.execute("CREATE TABLE {url} (urls TEXT PRIMARY KEY, file_name TEXT);".format(
+        url=domain.replace('.', '_')))
+    print('[-] Sqlite operational error: {} Retrying...'.format(e))
 
 def scrapeIt(new_url):
     content = requests.get(new_url).content
@@ -54,7 +59,8 @@ def scrapeIt(new_url):
                                 pdf_links.append(link)
                                 # Insert a row of data and commit
                                 # c.execute("INSERT INTO " + url + " (sub_url, file_name) VALUES ('http://www.google.com','aaa');")
-                                c.execute("INSERT INTO " + domain.replace('.', '_') + " VALUES (?,?)", (link, 'aaa'))
+                                c.execute("INSERT INTO " + domain.replace('.', '_') + " (urls, file_name) VALUES (?,?)",
+                                          (link, unquote(link).split("/")[-1]))
                                 conn.commit()
 
                     if (link not in new_links and link not in pdf_links):
