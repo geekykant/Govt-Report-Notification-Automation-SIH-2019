@@ -28,7 +28,7 @@ def showDashboard(request):
     # #      }
 
     # return render(request, 'website/dashboard/index.html', context=location_data)
-    return render(request, 'templates/dashboard/index.html', context='asd')
+    return render(request,'dashboard/index.html', context={'asd':1})
 
 
 def about(request):
