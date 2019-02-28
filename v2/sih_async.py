@@ -33,7 +33,6 @@ logging.getLogger("chardet.charsetprober").disabled = True
 HREF_RE = re.compile(r'href="(.*?)"')
 
 new_links = [];
-visited_links = [];
 pdf_links = []
 
 not_url = ['/', '#', 'javascript:void(0)']
@@ -63,8 +62,11 @@ except sqlite3.OperationalError as e:
 
 
 def some_function(i):
-     with open("new_urls.txt", "a") as f:
-        f.write(f"{i}\n")
+    global new_links
+    if (i not in new_links):
+        print("[-] New links found!!!..." + i)
+        with open("new_urls.txt", "a") as f:
+            f.write(f"{i}\n")
         print("Wrote results for source URL: %s" % (i))
 
 def extractLinks(content, new_url):
@@ -89,10 +91,8 @@ def extractLinks(content, new_url):
                         if (requests.get(link).status_code != 404):
                             pdf_links.append(link)
                             # Insert a row of data and commit
-                            # c.execute("INSERT INTO " + url + " (sub_url, file_name) VALUES ('http://www.google.com','aaa');")
                             c.execute("INSERT INTO " + domain.replace('.', '_') + " (urls, file_name) VALUES (?,?)",
                                       (link, unquote(link).split("/")[-1]))
-                            conn.commit()
                             print("blahhhed: " + link)
                         else:
                             flag = 0
@@ -103,8 +103,8 @@ def extractLinks(content, new_url):
                             flag = 0
 
                     if (flag and link not in new_links):
-                        new_links.append(link)
                         some_function(link)
+                        new_links.append(link)
 
 async def fetch_html(url: str, session: ClientSession, **kwargs) -> str:
     """GET request wrapper to fetch page HTML.
@@ -141,7 +141,7 @@ async def parse(url: str, session: ClientSession, **kwargs) -> set:
     else:
         extractLinks(html, url)
 
-        logger.info("new_links increased to %d for %s", len(new_links), url)
+        # logger.info("new_links increased to %d for %s", len(new_links), url)
         return set(new_links)
 
 
@@ -150,12 +150,6 @@ async def write_one(file: IO, url: str, **kwargs) -> None:
     res = await parse(url=url, **kwargs)
     if not res:
         return None
-    async with aiofiles.open(file, "a") as f:
-        for p in res:
-            if(p not in new_links):
-                await f.write(f"{p}\n")
-        # logger.info("Wrote results for source URL: %s", url)
-
 
 async def bulk_crawl_and_write(file: IO, urls: set, **kwargs) -> None:
     """Crawl & write concurrently to `file` for multiple `urls`."""
@@ -172,12 +166,14 @@ if __name__ == "__main__":
     assert sys.version_info >= (3, 7), "Script requires Python 3.7+."
     here = pathlib.Path(__file__).parent
 
+    # while (1):
     with open(here.joinpath("new_urls.txt")) as infile:
         urls = set(map(str.strip, infile))
 
-    outpath = here.joinpath("boom_new_urls.txt")
-    with open(outpath, "w") as outfile:
-        outfile.write("")
+    new_links = list(urls)
+    # print(new_links)
 
-    # while(1):
+    outpath = here.joinpath("new_urls.txt")
+
     asyncio.run(bulk_crawl_and_write(file=outpath, urls=urls))
+    conn.commit()

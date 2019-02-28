@@ -2,18 +2,293 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="109e9ccd-5c76-4c90-8beb-32440d9d6b43" name="Default Changelist" comment="new files">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foundurls.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/govt_db.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/govt_db_sample.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sih_async.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sih_website/sih_website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sih_website/sih_website/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sih_website/sih_website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sih_website/sih_website/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sih_website/website/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sih_website/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sih_website/website/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sih_working_sync.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/first_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/first_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/first_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/first_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/first_project/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/first_project/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/js/firebase_api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/sih_website/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/sih_website/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/sih_website/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/sih_website/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/alert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/badge.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/css/font-face.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/css/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fontawesome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-100.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-100.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-100.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-100.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-100.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-100italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-100italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-100italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-100italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-100italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-200.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-200.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-200.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-200.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-200.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-200italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-200italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-200italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-200italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-200italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-300.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-300.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-300.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-300.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-300.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-300italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-300italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-300italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-300italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-300italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-500.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-500.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-500.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-500.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-500.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-500italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-500italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-500italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-500italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-500italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-600.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-600.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-600.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-600.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-600.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-600italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-600italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-600italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-600italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-600italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-700.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-700.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-700.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-700.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-700.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-700italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-700italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-700italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-700italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-700italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-800.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-800.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-800.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-800.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-800.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-800italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-800italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-800italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-800italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-800italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-900italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-900italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-900italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-900italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-900italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/fonts/poppins/poppins-v5-latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/forget-pass.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/bg-title-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/bg-title-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/icon/Untitled-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/icon/avatar-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/icon/avatar-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/icon/avatar-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/icon/avatar-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/icon/avatar-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/icon/avatar-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/icon/avatar-big-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/icon/defense.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/icon/health.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/icon/logo-blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/icon/logo-mini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/icon/logo-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/icon/logo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/icon/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/icon/mhrd.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/images/icon/railway.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/inbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/index4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/modal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/progress-bar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/switch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/tab.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/typo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/animsition/animsition.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/animsition/animsition.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/bootstrap-4.1/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/bootstrap-4.1/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/bootstrap-4.1/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/bootstrap-progressbar/bootstrap-progressbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/chartjs/Chart.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/circle-progress/circle-progress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/circle-progress/circle-progress.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/countdown/countdowntime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/countdown/jquery.countdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/countdown/moment-timezone-with-data.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/countdown/moment-timezone.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/countdown/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/counter-up/jquery.counterup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/counter-up/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/counter-up/waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/css-hamburgers/hamburgers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/css-hamburgers/hamburgers.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-4.7/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-4.7/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-4.7/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-4.7/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-4.7/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-4.7/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-4.7/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-4.7/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-4.7/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-5/css/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-5/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-5/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-5/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-5/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-5/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-5/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-5/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-5/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-5/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-5/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-5/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-5/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-5/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-5/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/font-awesome-5/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/lightbox2/dist/css/lightbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/lightbox2/dist/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/lightbox2/dist/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/lightbox2/dist/images/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/lightbox2/dist/images/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/lightbox2/dist/js/lightbox-plus-jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/lightbox2/dist/js/lightbox-plus-jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/lightbox2/dist/js/lightbox-plus-jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/lightbox2/dist/js/lightbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/lightbox2/dist/js/lightbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/lightbox2/dist/js/lightbox.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/lightbox2/src/css/lightbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/lightbox2/src/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/lightbox2/src/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/lightbox2/src/images/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/lightbox2/src/images/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/lightbox2/src/js/lightbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/mdi-font/css/material-design-iconic-font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/mdi-font/css/material-design-iconic-font.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/mdi-font/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/mdi-font/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/mdi-font/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/mdi-font/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/mdi-font/fonts/Material-Design-Iconic-Font.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/perfect-scrollbar/perfect-scrollbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/perfect-scrollbar/perfect-scrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/perfect-scrollbar/perfect-scrollbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/progressbar/progressbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/progressbar/progressbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/select2/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/slick/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/slick/config.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/slick/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/slick/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/slick/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/slick/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/slick/slick-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/slick/slick-theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/slick/slick-theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/slick/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/slick/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/slick/slick.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/slick/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/slick/slick.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/smk-accordion/accordion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/smk-accordion/accordion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/smk-accordion/accordion.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/sweetalert/sweetalert.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/vector-map/jquery.vmap.brazil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/vector-map/jquery.vmap.europe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/vector-map/jquery.vmap.france.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/vector-map/jquery.vmap.germany.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/vector-map/jquery.vmap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/vector-map/jquery.vmap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/vector-map/jquery.vmap.russia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/vector-map/jquery.vmap.sampledata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/vector-map/jquery.vmap.usa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/vector-map/jquery.vmap.world.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/vector-map/jqvmap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/wow/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/vendor/wow/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/dashboard/web.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/testupload/supra.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/upload_file.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/templates/web.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sih_website/website/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v2/govt_db.db" beforeDir="false" afterPath="$PROJECT_DIR$/v2/govt_db.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v2/new_urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v2/sih_async.py" beforeDir="false" afterPath="$PROJECT_DIR$/v2/sih_async.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v2/urls.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,29 +311,35 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="db" value="25" />
-          <entry key="html" value="2" />
-          <entry key="py" value="14" />
-          <entry key="txt" value="45" />
+          <entry key="html" value="6" />
+          <entry key="js" value="1" />
+          <entry key="md" value="1" />
+          <entry key="py" value="23" />
+          <entry key="txt" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
-          <entry key="PLAIN_TEXT" value="70" />
-          <entry key="Python" value="14" />
+          <entry key="HTML" value="6" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="104" />
+          <entry key="Python" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="23" />
-          <entry key="py" value="2385" />
-          <entry key="txt" value="20" />
+          <entry key="html" value="83" />
+          <entry key="py" value="2706" />
+          <entry key="txt" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="43" />
-          <entry key="Python" value="2385" />
+          <entry key="HTML" value="83" />
+          <entry key="PLAIN_TEXT" value="63" />
+          <entry key="Python" value="2706" />
         </counts>
       </usages-collector>
     </session>
@@ -66,10 +347,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v2/sih_async.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1177">
+              <caret line="74" column="68" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/v2/sih_sync.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+            <state relative-caret-position="393">
+              <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -78,60 +368,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sih_website/website/views.py">
+        <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/v2/govt_db.db">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sih_website/website/models.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sih_website/website/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sih_website/website/templates/dashboard/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sih_website/sih_website/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <element signature="e#645#674#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sih_website/sih_website/settings.py">
+        <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="53" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
+            <state relative-caret-position="176">
+              <caret line="16" column="85" lean-forward="true" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/v2/sih_async.py">
+        <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="157" selection-start-line="157" selection-end-line="157" />
+            <state relative-caret-position="326">
+              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -156,6 +417,12 @@
       <find>wp-admin</find>
       <find>found_ur</find>
       <find>unq</find>
+      <find>new_urls</find>
+      <find>hoi</find>
+      <find>wr</find>
+      <find>wrote res</find>
+      <find>accorrd</find>
+      <find>button.css</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -177,27 +444,40 @@
         <option value="$PROJECT_DIR$/new.py" />
         <option value="$PROJECT_DIR$/domain_utils.py" />
         <option value="$PROJECT_DIR$/sih_working_sync.py" />
+        <option value="$PROJECT_DIR$/v2/boom_new_urls.txt" />
+        <option value="$PROJECT_DIR$/sih_website/sih_website/urls.py" />
+        <option value="$PROJECT_DIR$/sih_website/website/views.py" />
+        <option value="$PROJECT_DIR$/sih_website/sih_website/settings.py" />
+        <option value="$PROJECT_DIR$/sih_website/website/templates/dashboard/index.html" />
+        <option value="$PROJECT_DIR$/v2/sih_async.py" />
         <option value="$PROJECT_DIR$/v2/new_urls.txt" />
         <option value="$PROJECT_DIR$/v2/sih_sync.py" />
-        <option value="$PROJECT_DIR$/v2/boom_new_urls.txt" />
-        <option value="$PROJECT_DIR$/v2/sih_async.py" />
-        <option value="$PROJECT_DIR$/sih_website/sih_website/urls.py" />
-        <option value="$PROJECT_DIR$/sih_website/sih_website/settings.py" />
-        <option value="$PROJECT_DIR$/sih_website/website/views.py" />
+        <option value="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/views.py" />
+        <option value="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="822" />
+    <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="SIH-Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,34 +488,98 @@
             <path>
               <item name="SIH-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="SIH-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="sih_website" type="462c0819:PsiDirectoryNode" />
+              <item name="SIH-Everything" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SIH-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="SIH-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="sih_website" type="462c0819:PsiDirectoryNode" />
-              <item name="sih_website" type="462c0819:PsiDirectoryNode" />
+              <item name="SIH-Everything" type="462c0819:PsiDirectoryNode" />
+              <item name="My_Django_Stuff" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SIH-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="SIH-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="sih_website" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="SIH-Everything" type="462c0819:PsiDirectoryNode" />
+              <item name="My_Django_Stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SIH-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="SIH-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="sih_website" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="SIH-Everything" type="462c0819:PsiDirectoryNode" />
+              <item name="My_Django_Stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+              <item name="weather_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIH-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIH-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="SIH-Everything" type="462c0819:PsiDirectoryNode" />
+              <item name="My_Django_Stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+              <item name="weather_app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIH-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIH-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="SIH-Everything" type="462c0819:PsiDirectoryNode" />
+              <item name="My_Django_Stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+              <item name="weather_app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="weather_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIH-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIH-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="SIH-Everything" type="462c0819:PsiDirectoryNode" />
+              <item name="My_Django_Stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+              <item name="weather_app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="weather_app" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIH-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIH-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="SIH-Everything" type="462c0819:PsiDirectoryNode" />
+              <item name="My_Django_Stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+              <item name="weather_app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="weather_app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIH-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIH-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="SIH-Everything" type="462c0819:PsiDirectoryNode" />
+              <item name="My_Django_Stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+              <item name="weather_app" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SIH-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="SIH-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="sih_website" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="SIH-Everything" type="462c0819:PsiDirectoryNode" />
+              <item name="My_Django_Stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+              <item name="weather_app" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="weather_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SIH-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SIH-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="SIH-Everything" type="462c0819:PsiDirectoryNode" />
+              <item name="My_Django_Stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+              <item name="weather_app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="weather_app2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,12 +589,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/js" />
+      <recent name="$PROJECT_DIR$/sih_website/website/static" />
       <recent name="$PROJECT_DIR$/v2" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -306,11 +653,27 @@
       <option name="project" value="LOCAL" />
       <updated>1551203647779</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new files">
+      <created>1551271347589</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551271347589</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="822" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15362932" />
@@ -322,9 +685,9 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3739726" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.37349397" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -343,7 +706,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.37349397" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -418,9 +781,6 @@
     <entry file="file://$PROJECT_DIR$/v2/foundurls.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/v2/urls.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/v2/govt_db_sample.db">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -436,63 +796,148 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sih_website/website/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v2/govt_db.db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sih_website/website/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sih_website/website/templates/dashboard/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-397">
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sih_website/website/templates/dashboard/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sih_website/website/templates/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-397">
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sih_website/website/templates/readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sih_website/website/templates/table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4232" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sih_website/sih_website/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#645#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sih_website/website/templates/dashboard/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4365">
+          <caret line="291" column="98" selection-start-line="291" selection-start-column="98" selection-end-line="291" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sih_website/website/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v2/urls.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.2_2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/asyncio/base_events.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="586" column="39" lean-forward="true" selection-start-line="586" selection-start-column="39" selection-end-line="586" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v2/newly_added_urls.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/v2/new_urls.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/v2/sih_async.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        <state relative-caret-position="-1177">
+          <caret line="74" column="68" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sih_website/sih_website/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="128" column="1" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/v2/sih_sync.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+        <state relative-caret-position="393">
+          <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v2/govt_db.db">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sih_website/website/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sih_website/website/templates/dashboard/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sih_website/sih_website/urls.py">
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="330">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/js/app7833.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret column="2461" selection-start-column="2461" selection-end-column="2461" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="16" column="85" lean-forward="true" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
           <folding>
-            <element signature="e#645#674#0" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sih_website/website/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sih_website/website/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sih_website/sih_website/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="53" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
         </state>
       </provider>
     </entry>
