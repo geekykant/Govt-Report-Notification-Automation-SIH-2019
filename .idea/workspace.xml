@@ -2,8 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="109e9ccd-5c76-4c90-8beb-32440d9d6b43" name="Default Changelist" comment="django working">
+      <change afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/v2/sih_async.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/v2/sih_sync.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SIH-Everything" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/first_project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/django-sih/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/first_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/django-sih/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/first_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/django-sih/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/first_project/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/django-sih/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/backup/cloud-scraper.html" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/backup/cloud-scraper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/backup/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/backup/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/backup/data-specialist.html" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/backup/data-specialist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/backup/documentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/backup/documentation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/backup/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/backup/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/backup/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/backup/pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/backup/privacy-policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/backup/privacy-policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/backup/screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/backup/screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/backup/test-sites.html" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/backup/test-sites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/backup/this.context.doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/backup/this.context.doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/backup/tutorials.html" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/backup/tutorials.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/css/app7cf6.css" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/css/app7cf6.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/css/box.css" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/css/box.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/css/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/css/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/css/new.css" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/css/new.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/css/new.scss" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/css/new.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/fonts/Candaraa9e7.otf" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/fonts/Candaraa9e7.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/fonts/FuturaBT-Bookf584.otf" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/fonts/FuturaBT-Bookf584.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/fonts/Gotham-Bold1081b.otf" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/fonts/Gotham-Bold1081b.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/fonts/Gotham-Ultra1cd6c.otf" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/fonts/Gotham-Ultra1cd6c.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular1d5b.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular1d5b.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular70ac.woff" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regular70ac.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regularab2e.eot" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regularab2e.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regularb9d6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regularb9d6.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regularc7ba.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/fonts/vendor/bootstrap-sass/bootstrap/glyphicons-halflings-regularc7ba.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/aboutusherocac3.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/aboutusherocac3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/bghero9f72.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/bghero9f72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/bgourteam5f61.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/bgourteam5f61.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/bgprice32e5.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/bgprice32e5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/bgsupport2873.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/bgsupport2873.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/bgtesto2e0e0.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/bgtesto2e0e0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/bgtestoaed8.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/bgtestoaed8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/choosebg4762.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/choosebg4762.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/contact/MLBiznesainkubatori_ERAF_webam_eng.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/contact/MLBiznesainkubatori_ERAF_webam_eng.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/contactbgd9de.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/contactbgd9de.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/contactherobg0ef6.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/contactherobg0ef6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/landing/WS-small-gif-01.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/landing/WS-small-gif-01.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/landing/data-table-exported-csv.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/landing/data-table-exported-csv.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/landing/modular-selectors.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/landing/modular-selectors.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/landing/point-and-click-interface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/landing/point-and-click-interface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/landing/website-scroll-down-and-load-more.gif" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/landing/website-scroll-down-and-load-more.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/logo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/mapbg24656.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/mapbg24656.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/productbghero8655.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/productbghero8655.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/screenshots/open-web-scraper.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/screenshots/open-web-scraper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/screenshots/select-data.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/screenshots/select-data.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/screenshots/select-elements.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/screenshots/select-elements.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/searchiconsupp9cea.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/searchiconsupp9cea.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/serbg761a.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/serbg761a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/sevicebgb686.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/sevicebgb686.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/test-sites/screens/test-sites-ecommerce-ajax.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/test-sites/screens/test-sites-ecommerce-ajax.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/test-sites/screens/test-sites-ecommerce-allinone.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/test-sites/screens/test-sites-ecommerce-allinone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/test-sites/screens/test-sites-ecommerce-more.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/test-sites/screens/test-sites-ecommerce-more.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/test-sites/screens/test-sites-ecommerce-static.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/test-sites/screens/test-sites-ecommerce-static.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/test-sites/screens/test-sites-tables.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/test-sites/screens/test-sites-tables.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/videobg6894.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/videobg6894.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/videopagebg6065.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/videopagebg6065.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/arrow-to-right.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/arrow-to-right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/conicon2.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/conicon2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/conicon3.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/conicon3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/faqicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/faqicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/fbicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/fbicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/icons/icons8-download-from-the-cloud-125.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/icons/icons8-download-from-the-cloud-125.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/icons/icons8-grid-155.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/icons/icons8-grid-155.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/icons/icons8-intelligence-155.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/icons/icons8-intelligence-155.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/icons/icons8-javascript-125.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/icons/icons8-javascript-125.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/icons/icons8-networking-manager-125.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/icons/icons8-networking-manager-125.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/icons/icons8-rest-api-125.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/icons/icons8-rest-api-125.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/icons/icons8-schedule-125.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/icons/icons8-schedule-125.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/icons/icons8-shopping-mall-125.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/icons/icons8-shopping-mall-125.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/icons/icons8-software-installer-155.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/icons/icons8-software-installer-155.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/icons/icons8-vpn-125.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/icons/icons8-vpn-125.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/icons/icons8-web-125.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/icons/icons8-web-125.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/icons/icons8-webhook-125.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/icons/icons8-webhook-125.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/imghero.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/imghero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/leftarrowser.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/leftarrowser.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/productheroimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/productheroimg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/serviceimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/serviceimg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/socialmimg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/socialmimg1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/socialmimg2.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/socialmimg2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/twicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/twicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/js/app7833.js" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/js/app7833.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app2/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app2/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app2/js/firebase_api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/templates/main_website/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app2/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app2/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app2/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app2/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/views.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,38 +135,38 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="db" value="25" />
-          <entry key="html" value="7" />
+          <entry key="db" value="31" />
+          <entry key="html" value="8" />
           <entry key="js" value="1" />
           <entry key="md" value="2" />
-          <entry key="png" value="3" />
-          <entry key="py" value="24" />
-          <entry key="txt" value="79" />
+          <entry key="png" value="4" />
+          <entry key="py" value="34" />
+          <entry key="txt" value="82" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="7" />
-          <entry key="Image" value="3" />
+          <entry key="HTML" value="8" />
+          <entry key="Image" value="4" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="104" />
-          <entry key="Python" value="24" />
+          <entry key="PLAIN_TEXT" value="113" />
+          <entry key="Python" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="23" />
-          <entry key="html" value="339" />
-          <entry key="py" value="3272" />
+          <entry key="html" value="368" />
+          <entry key="py" value="3729" />
           <entry key="txt" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="339" />
+          <entry key="HTML" value="368" />
           <entry key="PLAIN_TEXT" value="103" />
-          <entry key="Python" value="3272" />
+          <entry key="Python" value="3729" />
         </counts>
       </usages-collector>
     </session>
@@ -75,49 +185,76 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/v2/sih_sync.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/views.py">
+        <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="24">
+              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
-                <marker date="1551379725700" expanded="true" signature="213:261" ph="..." />
-                <marker date="1551379725700" expanded="true" signature="902:907" ph="..." />
+                <marker date="1551397598633" expanded="true" signature="302:323" ph="..." />
+                <marker date="1551397598633" expanded="true" signature="1555:1560" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/first_project/urls.py">
+        <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/django-sih/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="158">
+              <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/v2/sih_async.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
               <folding>
-                <element signature="e#647#679#0" expanded="true" />
+                <marker date="1551385598241" expanded="true" signature="110:111" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app/index.html">
+        <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/django-sih/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="140" column="12" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="12" />
+            <state>
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/v2/sih_sync.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+              <folding>
+                <marker date="1551385479443" expanded="true" signature="27:28" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/templates/main_website/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -159,11 +296,21 @@
       <find>index.html</find>
       <find>image</find>
       <find>logo1</find>
+      <find>weather_app</find>
+      <find>main_website</find>
+      <find>app7833</find>
+      <find>js/app7833.js</find>
+      <find>my_first</find>
+      <find>DATABASES</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>print(</replace>
+      <replace>main_website</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/main_website/static/main_website</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -187,11 +334,20 @@
         <option value="$PROJECT_DIR$/sih_website/website/templates/dashboard/index.html" />
         <option value="$PROJECT_DIR$/v2/sih_async.py" />
         <option value="$PROJECT_DIR$/v2/new_urls.txt" />
-        <option value="$PROJECT_DIR$/v2/sih_sync.py" />
         <option value="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/first_project/urls.py" />
         <option value="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/views.py" />
         <option value="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app2/index.html" />
         <option value="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app/index.html" />
+        <option value="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/main_website/views.py" />
+        <option value="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/main_website/templates/main_website/index.html" />
+        <option value="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/django-sih/urls.py" />
+        <option value="$PROJECT_DIR$/v2/sih_sync.py" />
+        <option value="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/v2/sih_sync.py" />
+        <option value="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/v2/sih_async.py" />
+        <option value="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/views.py" />
+        <option value="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/django-sih/settings.py" />
+        <option value="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/models.py" />
+        <option value="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/templates/main_website/index.html" />
       </list>
     </option>
   </component>
@@ -239,42 +395,37 @@
               <item name="SIH-Project" type="462c0819:PsiDirectoryNode" />
               <item name="SIH-Everything" type="462c0819:PsiDirectoryNode" />
               <item name="My_Django_Stuff" type="462c0819:PsiDirectoryNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+              <item name="django-sih" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SIH-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="SIH-Project" type="462c0819:PsiDirectoryNode" />
               <item name="SIH-Everything" type="462c0819:PsiDirectoryNode" />
               <item name="My_Django_Stuff" type="462c0819:PsiDirectoryNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
+              <item name="django-sih" type="462c0819:PsiDirectoryNode" />
+              <item name="django-sih" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SIH-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="SIH-Project" type="462c0819:PsiDirectoryNode" />
               <item name="SIH-Everything" type="462c0819:PsiDirectoryNode" />
               <item name="My_Django_Stuff" type="462c0819:PsiDirectoryNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
-              <item name="weather_app" type="462c0819:PsiDirectoryNode" />
+              <item name="django-sih" type="462c0819:PsiDirectoryNode" />
+              <item name="main_website" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SIH-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="SIH-Project" type="462c0819:PsiDirectoryNode" />
               <item name="SIH-Everything" type="462c0819:PsiDirectoryNode" />
               <item name="My_Django_Stuff" type="462c0819:PsiDirectoryNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
-              <item name="weather_app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="django-sih" type="462c0819:PsiDirectoryNode" />
+              <item name="main_website" type="462c0819:PsiDirectoryNode" />
+              <item name="v2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SIH-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="SIH-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="SIH-Everything" type="462c0819:PsiDirectoryNode" />
-              <item name="My_Django_Stuff" type="462c0819:PsiDirectoryNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
-              <item name="weather_app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="weather_app" type="462c0819:PsiDirectoryNode" />
+              <item name="v2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,11 +434,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/sreekant/Desktop/SIH-Project/SIH-Everything/My_Django_Stuff/django-sih/main_website/views.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -376,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551372000040</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="django working">
+      <created>1551381751103</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1551381751103</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -390,10 +550,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.15362932" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49807692" visible="true" weight="0.15362932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.50120485" side_tool="true" weight="0.15362932" />
+      <window_info id="Favorites" order="2" sideWeight="0.5019231" side_tool="true" weight="0.15362932" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -618,20 +780,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/js/app7833.js">
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/js/app7833.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret column="2461" selection-start-column="2461" selection-end-column="2461" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/img/logo.png">
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/img/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/logo1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/static/weather_app/images/logo.png">
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/logo1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -644,51 +803,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app2/index.html">
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/main_website/templates/weather_app2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="59" column="14" lean-forward="true" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-            <marker date="1551379725700" expanded="true" signature="213:261" ph="..." />
-            <marker date="1551379725700" expanded="true" signature="902:907" ph="..." />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/static/main_website/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/first_project/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="e#647#679#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/first_project/weather_app/templates/weather_app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="140" column="12" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/new_urls.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/v2/sih_sync.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+        <state relative-caret-position="248">
+          <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/v2/govt_db.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/django-sih/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <marker date="1551397598633" expanded="true" signature="302:323" ph="..." />
+            <marker date="1551397598633" expanded="true" signature="1555:1560" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/django-sih/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/v2/sih_async.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+          <folding>
+            <marker date="1551385598241" expanded="true" signature="110:111" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/v2/sih_sync.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <marker date="1551385479443" expanded="true" signature="27:28" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/migrations/0002_auto_20190301_0002.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/templates/main_website/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
