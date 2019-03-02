@@ -16,7 +16,8 @@ not_url = ['/', '#', 'javascript:void(0)']
 file_types = ['.pdf', '.doc', '.docx', '.xlxs', '.PDF']
 not_file_types = ['.mp3', '.jpg', '.png', '.ppt', '.pptx', '.JPG']
 
-url = 'https://www.paavam.com'
+url = 'https://sreekant.me'
+# url = 'https://www.paavam.com'
 # url = 'http://mhrd.gov.in/'
 domain = urlparse(url).netloc
 
@@ -39,11 +40,13 @@ except sqlite3.OperationalError as e:
 with open("new_urls.txt", "w") as outfile:
     outfile.write("")
 
+
 async def some_function(i):
     async with aiofiles.open("new_urls.txt", "a") as f:
         await f.write(f"{i}\n")
-        print("Wrote results for source URL: %s" %(i))
+        print("Wrote results for source URL: %s" % (i))
         pass
+
 
 def scrapeIt(new_url):
     content = requests.get(new_url).content
@@ -87,6 +90,7 @@ def scrapeIt(new_url):
                             asyncio.run(some_function(link))
 
     extractLinks(content)
+
 
 # First scrape
 scrapeIt(url)
