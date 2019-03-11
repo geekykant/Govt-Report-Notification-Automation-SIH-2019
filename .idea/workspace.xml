@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="109e9ccd-5c76-4c90-8beb-32440d9d6b43" name="Default Changelist" comment="django working">
-      <change afterPath="$PROJECT_DIR$/.idea/SIH.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/null.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SIH-Everything" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/v8/searchy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/v8/shitty.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v1/foundurls.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v1/govt_db.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v1/govt_db_sample.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v1/sih_async.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v1/sih_working_sync.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v1/urls.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v2/govt_db_sample.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v2/new_urls.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v2/sih_async.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v2/sih_sync.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/django-sih/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/django-sih/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/django-sih/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/django-sih/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/templates/main_website/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/templates/main_website/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/templates/main_website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/templates/main_website/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/v2/govt_db.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/v2/new_urls_www.mea.gov.in.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/v2/pypdf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/v2/sih_async.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/v2/sih_async.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/v2/sih_sync.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/v2/sih_sync.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="265">
-              <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
                 <marker date="1551614539846" expanded="true" signature="407:409" ph="..." />
@@ -144,8 +113,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/views2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="149" selection-end-column="75" />
+            <state relative-caret-position="34">
+              <caret line="115" column="21" lean-forward="true" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -247,7 +216,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/SIH-Everything" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -536,9 +505,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4903846" visible="true" weight="0.15362932" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4903846" visible="true" weight="0.15362932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50961536" side_tool="true" weight="0.15362932" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -549,7 +517,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3060241" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3060241" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.21927711" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32891566" />
@@ -870,7 +838,7 @@
     <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
-          <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
             <marker date="1551614539846" expanded="true" signature="407:409" ph="..." />
@@ -883,8 +851,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SIH-Everything/My_Django_Stuff/django-sih/main_website/views2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="149" selection-end-column="75" />
+        <state relative-caret-position="34">
+          <caret line="115" column="21" lean-forward="true" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
