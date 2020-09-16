@@ -1,5 +1,5 @@
 # Govt Website Report Notification
-This was built as a part of Smart India Hackathon (2018) under MoSPI Govt. Ministry. (Statics & PI). Our team secured 2nd Runners up, and this idea was the aknowledged for the fast and accurate searching of Govt. reports file. 📊
+This was built as a part of Smart India Hackathon (2019) under MoSPI Govt. Ministry. (Statics & PI). Our team secured 2nd Runners up, and this idea was the aknowledged for the fast and accurate searching of Govt. reports file. 📊
 
 ## Start Using It!
 Run the code to start server.
